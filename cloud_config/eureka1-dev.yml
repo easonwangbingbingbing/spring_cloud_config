@@ -17,8 +17,8 @@ eureka:
     lease-renewal-interval-in-seconds: 3
     
   client:
-    registerWithEureka: true   #自己是否注冊自己
-    fetchRegistry: true        #自己是否注冊自己
+    registerWithEureka: false   #自己是否注冊自己
+    fetchRegistry: false        #自己是否注冊自己
     serviceUrl:
       defaultZone: http://192.168.191.86:8888/eureka/
   server:
