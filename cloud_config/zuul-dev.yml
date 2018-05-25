@@ -11,9 +11,9 @@ eureka:
 server:
   port: 7070
   tomcat:
-    accept-count: 1000
-    max-threads: 1000
-    max-connections: 1200
+    accept-count: 100
+    max-threads: 100
+    max-connections: 120
 spring:
   application:
     name: zuul_server
