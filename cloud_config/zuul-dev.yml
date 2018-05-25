@@ -22,7 +22,7 @@ zuul:
   routes:
     api-a:
       path: /dev_zuul/**
-      serviceId: dev_php_server
+      serviceId: order_server
     api-b:
       path: /stock_service/**
       serviceId: stock_service
