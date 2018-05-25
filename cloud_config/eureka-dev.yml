@@ -26,3 +26,7 @@ eureka:
     enableSelfPreservation: true
     evictionIntervalTimerInMs: 60000
     #eviction-interval-timer-in-ms: 3000
+ 
+ management:
+  security:
+    enabled: false
