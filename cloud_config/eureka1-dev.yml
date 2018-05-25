@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8889
   tomcat:
     accept-count: 100
     max-threads: 100
@@ -20,7 +20,7 @@ eureka:
     registerWithEureka: true   #自己是否注冊自己
     fetchRegistry: true        #自己是否注冊自己
     serviceUrl:
-      defaultZone: http://locahost:8080/eureka/
+      defaultZone: http://192.168.191.86:8888/eureka/
   server:
     enable-self-preservation: false
     enableSelfPreservation: true
