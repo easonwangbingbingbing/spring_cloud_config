@@ -50,4 +50,8 @@ ribbon:
   ConnectTimeout: 60000
   MaxTotalConnections: 1000
   MaxConnectionsPerHost: 1000
+
+management:
+  security:
+    enabled: false
  
