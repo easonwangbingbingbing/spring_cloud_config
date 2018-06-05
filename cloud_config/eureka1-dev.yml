@@ -37,9 +37,9 @@ eureka:
 
   client:
 
-    registerWithEureka: true
+    #registerWithEureka: true
 
-    fetchRegistry: true
+    #fetchRegistry: true
 
     serviceUrl:
 
