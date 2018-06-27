@@ -9,7 +9,7 @@ eureka:
     lease-renewal-interval-in-seconds: 3
 
 server:
-  port: 7776
+  port: 7777
   tomcat:
     accept-count: 100
     max-threads: 100
