@@ -21,7 +21,7 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /sssssrrr/**
+      path: /123/**
       serviceId: order_server
     api-b:
       path: /ssvic111e/**
