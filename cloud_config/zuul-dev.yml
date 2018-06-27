@@ -24,7 +24,7 @@ zuul:
       path: /123/**
       serviceId: order_server
     api-b:
-      path: /ssvic111e/**
+      path: /22222222/**
       serviceId: stock_service
       
   host:
