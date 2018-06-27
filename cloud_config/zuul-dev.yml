@@ -21,10 +21,10 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /dev_zuul11/**
+      path: /dev_zuulss11/**
       serviceId: order_server
     api-b:
-      path: /stock_service/**
+      path: /stock_serssvice/**
       serviceId: stock_service
       
   host:
